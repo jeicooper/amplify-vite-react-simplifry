@@ -1,0 +1,12 @@
+.Nav {
+    background-color: green;
+}
+
+body{
+background-color: rgba(241, 242, 233, 0.885);
+padding: .5em;
+}
+button {
+padding: .25em;
+margin: .15em;
+}
