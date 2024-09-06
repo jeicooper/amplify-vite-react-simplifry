@@ -1,19 +1,15 @@
 import { useEffect, useState } from "react";
-import type { Schema } from "../amplify/data/resource";
-import { generateClient } from "aws-amplify/data";
 import { Authenticator } from '@aws-amplify/ui-react'
 import '@aws-amplify/ui-react/styles.css'
 import PreLoginNav from './Navigation/PreLoginNav';
 import SummerMix from "./Mixes/SummerMix";
 
-const client = generateClient<Schema>();
+
 function Login() {
-    const [todos, setTodos] = useState<Array<Schema["Todo"]["type"]>>([]);
+    
     const [showSummerMix, setShowSummerMix] = useState(false);
     useEffect(() => {
-        client.models.Todo.observeQuery().subscribe({
-            next: (data) => setTodos([...data.items]),
-        });
+        
     }, []);   
 
     
