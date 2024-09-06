@@ -1,0 +1,42 @@
+html{
+    height: 100%;
+}
+
+body{
+    background: linear-gradient(180deg, #7551c2, #000000);
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.intro{
+    font-family: "poppins", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 100px;
+    text-align: center;
+    color: #eceff3;
+}
+
+.nav{
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 16px;
+    top: 10px;
+}
+
+.btn{
+    border: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    background-color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: "arial", sans-serif;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn:hover{
+    transition: 0.5s;
+    background-color: #7551c29e;
+}
