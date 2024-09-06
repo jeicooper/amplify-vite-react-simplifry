@@ -3,7 +3,7 @@ import type { Schema } from "../amplify/data/resource";
 import { generateClient } from "aws-amplify/data";
 import { Authenticator } from '@aws-amplify/ui-react'
 import '@aws-amplify/ui-react/styles.css'
-import PreLoginNav from './Navigation/PreLoginNav.jsx';
+import PreLoginNav from './Navigation/PreLoginNav';
 import SummerMix from "./Mixes/SummerMix";
 
 const client = generateClient<Schema>();
